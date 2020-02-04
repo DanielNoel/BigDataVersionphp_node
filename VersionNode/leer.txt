@@ -1,0 +1,7 @@
+
+siguiente a eso inserta este comando:	
+use agenda_db
+db.usuarios.insertMany([{ email: 'daniel@mail.com', user: "daniel", password: "12"}, { email: 'caqui@mail.com', user: "caqui", password: "12"}])	
+
+node server/index.js	
+localhost:3000/index.html	
